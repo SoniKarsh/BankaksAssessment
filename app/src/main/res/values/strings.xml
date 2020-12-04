@@ -13,4 +13,5 @@
     <string name="error_enter_data">Please enter %1$s.</string>
     <string name="error_enter_valid_data">Please enter valid %1$s.</string>
     <string name="exception_occurred">Exception Occurred in Regex.</string>
+    <string name="data_validated">Data is Validated.</string>
 </resources>

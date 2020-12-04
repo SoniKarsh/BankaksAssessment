@@ -336,7 +336,7 @@ class OptionDetailsFragment: Fragment() {
 
                         // If all fields are valid go ahead
                         if(isAllFieldValid){
-                            ToastUtils.shortToast(stringText = "Go Go Go...")
+                            ToastUtils.shortToast(stringText = getString(R.string.data_validated))
                         }
 
                     }
