@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tilWrap"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_20sdp"
+    android:layout_marginEnd="@dimen/_20sdp"
+    app:errorIconDrawable="@null"
+    android:layout_marginTop="@dimen/_3sdp"
+    app:errorEnabled="true"
+    app:boxStrokeColor="@color/colorPrimaryDark">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tietEnterText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="@string/app_name"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_12ssp" />
+
+</com.google.android.material.textfield.TextInputLayout>

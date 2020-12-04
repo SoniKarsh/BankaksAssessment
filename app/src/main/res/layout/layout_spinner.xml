@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sLayoutItem"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/bg_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:overlapAnchor="false"
+        />
+
+    <TextView
+        android:id="@+id/tvSuOptionError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mtrl_error"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:textSize="12sp"
+        tools:text="@string/app_name"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        />
+
+</LinearLayout>

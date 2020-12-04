@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvValidateButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/tv_validate"
+    android:textColor="@color/white"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingEnd="@dimen/_20sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg_btn_home"
+    android:fontFamily="@font/poppins_medium"
+    android:textAlignment="center"
+    android:textSize="@dimen/_15ssp"
+    />

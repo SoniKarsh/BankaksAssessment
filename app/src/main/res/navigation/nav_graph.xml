@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/optionsFragment"
+    >
+
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.codehustlers.bankaks.ui.options.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" >
+        <action
+            android:id="@+id/action_optionsFragment_to_optionDetailsFragment"
+            app:destination="@id/optionDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionDetailsFragment"
+        android:name="com.codehustlers.bankaks.ui.optiondetails.OptionDetailsFragment"
+        android:label="OptionDetailsFragment" />
+
+</navigation>

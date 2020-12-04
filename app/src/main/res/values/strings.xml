@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BankaksAssessment</string>
+    <string name="select_option">Select Option</string>
+    <string name="select_an_option">Select an option</string>
+    <string name="tv_send">Send</string>
+    <string name="option_validation">Please select any of the mentioned option.</string>
+    <string name="no_fields_resp">There is no field in response.</string>
+    <string name="tv_validate">Validate</string>
+
+    <string name="error_some_data">Please enter some data.</string>
+    <string name="error_valid_data">Please enter valid data.</string>
+
+    <string name="error_enter_data">Please enter %1$s.</string>
+    <string name="error_enter_valid_data">Please enter valid %1$s.</string>
+    <string name="exception_occurred">Exception Occurred in Regex.</string>
+</resources>
